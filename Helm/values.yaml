@@ -1,6 +1,6 @@
 #deployment.yaml
 #namespace: devops
-replicaCount: 0
+replicaCount: 1
 image:
   repository: saranya99/helm
   tag: v1
