@@ -1,5 +1,5 @@
 #deployment.yaml
-#namespace: devops
+#namespace: devops-rocket 
 replicaCount: 1
 image:
   repository: saranya99/helm
@@ -10,5 +10,5 @@ service:
   port: 80
   targetPort: 80
   containerPort: 80
-  nodePort: 30008
+  nodePort: 30009
   type: NodePort
